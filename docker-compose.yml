@@ -1,0 +1,7 @@
+version: '3'
+services:
+  php-azure-function:
+    image: php-azure-function
+    ports:
+      - "8081:80"
+
